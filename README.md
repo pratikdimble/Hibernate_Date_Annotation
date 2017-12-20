@@ -1,0 +1,2 @@
+# Hibernate_Date_Annotation
+When you save date to the database using hibernate, the date is converted to local time and stored. Suppose your date is '12-06-2012' ,hibernate inserts it into database in default format of"yyyy-mm-dd". Timestamp format is yyyy-mm-dd hh:mm:ss.  Timestamp format takes 4 byte whereas DtaeTimeFormat takes 8 byte.  Hibernate provides date type annotation which takes format 'yyyy-mm-dd'
